@@ -1,0 +1,12 @@
+let str = "naman";
+let arr = "";
+
+
+for(let i = str.length;i<=0;i++){
+  arr+=str[i];
+ }
+if(arr==str){
+console.log("it is a palindrome")
+} else{
+console.log("it is not a palindrome")
+}
